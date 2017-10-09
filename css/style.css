@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-white {
+    background: white;
+}
+
+body {
+    font-size: 14px;
+    font-family: sans-serif, Arial, Tahoma;
+    color: #222222;
+}
+.menu_header_r a:first-child {
+    font-weight: bold;
+    color: #999999;
+}
+.fa-headphones {
+    padding-right: 8px;
+}
+
+.btn_main {
+    border: none;
+    border-right: 1px solid #cccccc;
+    border-radius: unset;
+    padding-right: 15px;
+    top: 0;
+    bottom: 0;
+}
+
+.ftsz12 {
+    font-size: 12px;
+}
+
+.ftsz14 {
+    font-size: 14px;
+}
+
+.ftsz10 {
+    font-size: 10px;
+}
+
+.ftsz18 {
+    font-size: 18px;
+}
+
+.ftsz25 {
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.width {
+    width: 100%;
+}
+
+.fa-check {
+    color: #1abc9c !important;
+    font-weight: 300;
+    padding-right: 5px;
+}
+
+.txt_blg {
+    color: #999999;
+    text-align: center;
+}
+.menu_header_r a.icon,.icon,.comment,.frm_search input,.footer,.fa-headphones{
+    color: #cccccc !important;
+}
+
+.blog a {
+    font-weight: 700;
+}
+
+.menu_header_r span {
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align: text-bottom;
+    font-size: 12px;
+    color: #cccccc ;
+}
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.menu > li > a {
+    color: #555555 !important;
+}
+
+.menu li a:hover,.fa-search:hover, .menu li a.active,.header i.icon:hover, .header a.icon:hover{
+    color: #1abc9c !important;
+}
+
+.header a:before {
+    padding-right: 8px;
+}
+
+.menu_header_l a {
+    margin-right: 8px;
+}
+
+.menu_cate li a:before {
+    font-family: FontAwesome;
+    content: "\f053";
+    padding-right: 8px;
+    font-size: 8px;
+}
+
+.dropdown-item:hover {
+    background: none !important;
+}
+
+.menu_cate li {
+    padding: 5px 0;
+}
+
+#mn-main2 .nav-item {
+    padding-right: 20px;
+}
+
+.header {
+    height: 35px;
+}
+
+.position_r {
+    position: relative;
+}
+
+.position_a {
+    position: absolute;
+    z-index: 100;
+    width: 65px;
+    height: 55px;
+    right: 0;
+    bottom: 0;
+    background: white;
+    display: inline-block;
+    padding: 5px 12px 2px 12px;
+}
+
+.position_r img, .tab-content img {
+    width: 100%;
+}
+
+.modal-dialog {
+    height: 100%;
+    position: relative;
+}
+
+.btn-readmore {
+    box-shadow: 0 0 3px lightgrey;
+    float: right;
+}
+
+.btn-readmore:hover {
+    background: #1abc9c;
+    color: white;
+}
+
+.mn_bold {
+    color: #999999;
+    font-weight: 800;
+}
+
+.pagination .page-link {
+    margin-left: 5px;
+    border-radius: 3px;
+}
+
+.img_footer {
+    width: 150px;
+}
+.menu_media li:first-child:hover {
+    background: #3d5b97;
+}
+
+.menu_media li:nth-child(2):hover {
+    background: #2D9AD2;
+}
+
+.menu_media li:nth-child(3):hover {
+    background: #ca232e;
+}
+
+.menu_media li a i:hover, .menu_media li a i {
+    color: white;
+    font-size: 18px;
+}
+
+.menu_media li {
+    text-align: center;
+    border-radius: 50%;
+    background: #808080;
+    width: 35px;
+    height: 35px;
+    line-height: 40px;
+}
+
+.dropdown-item a, .dropdown-item {
+    color: #666666 !important;
+}
+
+.btn_tag a:hover {
+    background: #29bb9c;
+}
+
+.btn_tag a {
+    background: #cccccc;
+    padding: 4px 5px;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 5px;
+    display: inline-block;
+    border: none;
+    border-radius: 3px;
+    line-height: 1.25;
+}
+
+.event_title {
+    color: #69bc9c;
+}
+
+.event > div:first-child {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#search {
+    z-index: 1000000;
+}
+.btn-dots {
+    border: none;
+    border-left: 1px solid #cccccc;
+    border-radius: unset;
+    top: 0;
+    bottom: 0;
+    padding-left: 15px;
+    padding-right: 0;
+    display: grid;
+}
+
+.height {
+    height: 100%;
+}
+
+.btn-dots span {
+    font-size: 10px;
+    padding: 1px;
+}
+.dropdown-menu {
+    border-radius: 0.1rem;
+    border: none;
+}
+
+.dropdown-menu a {
+    font-size: 14px;
+}
+
+.frm_search{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#mn-main1 {
+    width: 15%;
+}
+
+@media (max-width: 991px) {
+    .navbar_menu .container {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+
+    #mn-main1, #mn-main2 {
+        position: absolute;
+        top: 50px;
+        padding-top: 20px;
+        z-index: 1000;
+        background: white;
+        width: 100%;
+    }
+
+}
